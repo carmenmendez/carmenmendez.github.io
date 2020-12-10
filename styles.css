@@ -1,0 +1,67 @@
+/* globals */
+body {
+    font-family: 'Andika New Basic', sans-serif;
+    font-size: 16px;
+}
+a {
+    color: inherit;
+    text-decoration: none; 
+}
+a:hover {
+    color: inherit;
+}
+
+/* Sections */
+header {
+    background-color: black;
+    height: 94px;
+}
+header a:hover {
+    color:  rgb(222, 146, 55);
+}
+header .header-col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+#about, #tutorial {
+    background-color: rgb(222, 146, 55);
+}
+
+#cover {
+    background-image: url("images/cover.jpg");
+    height: calc(100vh - 94px);
+    background-size: cover;
+}
+.cover-container, .cover-row{
+    height: 100%;
+}
+.logo {
+    width: 100%;
+}
+header, #about, #tutorial, #cover {
+    color: rgb(255, 255, 255);
+}
+
+/* Texts */
+h1 {
+    font-size: 56px;
+	font-weight: 600;
+}
+h2 {
+	font-size: 45px;	
+	font-weight: 600;
+}
+h3 {
+	font-size: 24px;
+}
+.text-medium {
+    font-size: 24px;
+}
