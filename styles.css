@@ -62,6 +62,10 @@ header, #about, #tutorial, #cover {
 .text-center {
     text-align: center;
 }
+
+#tutorial {
+    padding-top: 32px;
+}
 .video{
     text-align: center;
     padding-top: 32px;
