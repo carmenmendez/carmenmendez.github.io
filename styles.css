@@ -50,13 +50,40 @@ header, #about, #tutorial, #cover {
     color: rgb(255, 255, 255);
 }
 
+.about-container, .about-row {
+    height: 200px;
+}
+
+.how-to-play-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.text-center {
+    text-align: center;
+}
+.video{
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.ilustration {
+    width: 100%;
+    border-radius: 100%;    
+}
+
+.game-step {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
 /* Texts */
 h1 {
-    font-size: 56px;
+    font-size: 48px;
 	font-weight: 600;
 }
 h2 {
-	font-size: 45px;	
+	font-size: 32px;	
 	font-weight: 600;
 }
 h3 {
@@ -65,3 +92,7 @@ h3 {
 .text-medium {
     font-size: 24px;
 }
+.text-color-secondary{
+   color: rgb(222, 146, 55)
+}
+
